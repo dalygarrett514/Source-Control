@@ -1,0 +1,38 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "f35f4ce8-0888-11ef-9c92-2f270a8c9908",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "unassigned_tasks": {
+          "array": []
+        },
+        "list_users": {
+          "array": []
+        },
+        "update_user": {
+          "array": []
+        },
+        "new_user": {
+          "array": []
+        },
+        "list_groups": {
+          "array": []
+        },
+        "latest_user": {
+          "array": []
+        },
+        "add_to_group": {
+          "array": []
+        },
+        "selected_user": {
+          "array": []
+        }
+      }
+    },
+    "appThemeName": "Custom app theme",
+    "version": "3.52.0"
+  }
+}
