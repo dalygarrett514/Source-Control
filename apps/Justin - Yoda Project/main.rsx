@@ -76,16 +76,16 @@
           placeholder="123-45-6789"
         />
         <TextInput
-          id="textInput4"
-          label="Retire System"
-          labelPosition="top"
-          placeholder="Enter value"
-        />
-        <TextInput
           id="textInput2"
           label="First Name"
           labelPosition="top"
           placeholder="Garrett"
+        />
+        <TextInput
+          id="textInput4"
+          label="Retire System"
+          labelPosition="top"
+          placeholder="Enter value"
         />
         <TextInput
           id="textInput3"
@@ -159,6 +159,7 @@
           submitTargetId="form1"
           text="Store Search"
         />
+        <Button id="button5" text="Button" />
       </Footer>
     </Form>
     <Container
