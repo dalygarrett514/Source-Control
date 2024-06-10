@@ -38,6 +38,7 @@
     "oauth2_client_secret": "",
     "oauth2_refresh_token": "",
     "auth0_custom_audience": "",
+    "excludeDefaultHeaders": true,
     "oauth1_consumer_secret": "",
     "oauth1_realm_parameter": "",
     "oauth1_signature_method": "HMAC-SHA1",
