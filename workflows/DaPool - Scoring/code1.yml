@@ -22,7 +22,7 @@ template:
     - query: |+
 
         function extractScores() {   
-          return startTrigger.data.map(game => ({     
+          return query1.data.map(game => ({     
             gameId: game.id,     
             homeTeam: game.home_team,
             awayTeam: game.away_team,
