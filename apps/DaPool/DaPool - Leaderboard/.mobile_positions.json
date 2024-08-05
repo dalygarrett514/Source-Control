@@ -1,0 +1,83 @@
+{
+  "avatar1": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "button1": {
+    "subcontainer": "header",
+    "col": 10,
+    "height": 0.8,
+    "width": 2
+  },
+  "circularImage1": {
+    "container": "listView1",
+    "col": 2,
+    "height": 2.6,
+    "width": 2
+  },
+  "container1": {
+    "height": 18,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "image1": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "row": 0.6,
+    "height": 2,
+    "width": 1
+  },
+  "listView1": {
+    "container": "container1",
+    "subcontainer": "1e588",
+    "height": 15.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listViewTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "navigation1": {
+    "subcontainer": "sidebarFrame1",
+    "height": 0.8,
+    "width": 1
+  },
+  "statistic1": {
+    "container": "listView1",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 2
+  },
+  "text1": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.6,
+    "width": 1
+  },
+  "text2": {
+    "container": "listView1",
+    "row": 0.8,
+    "col": 4,
+    "height": 0.6,
+    "width": 8
+  }
+}
