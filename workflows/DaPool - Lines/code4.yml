@@ -1,0 +1,91 @@
+id: code4
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: return "2024-09-08T12:00:00Z"
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        object: {}
+    - _additionalScope:
+        array: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events:
+        array: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-03T16:45:37.732Z
+blockData:
+  top: 1040
+  left: -48
+  uuid: 39354151-adf9-474a-ae0c-4f334bb954dd
+  pluginId: code4
+  blockType: code
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  responsePanelState: open
+  incomingOnSuccessEdges: []
