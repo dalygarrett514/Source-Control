@@ -1,0 +1,111 @@
+id: code2
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |
+        function extractSelectFields() {
+          const instanceValues = startTrigger.data.instanceValues;
+          const data = startTrigger.data.data;
+
+          // Create a map from team names to game_ids
+          const teamToGameId = {};
+          data.forEach(item => {
+            teamToGameId[item.team1] = item.game_id;
+            teamToGameId[item.team2] = item.game_id;
+          });
+
+          // Map instanceValues to the desired output format
+          return instanceValues.map(item => ({
+            select1: item.select1,
+            select2: item.select2,
+            game_id: teamToGameId[item.select1] || null // Use team name to get the game_id
+          }));
+        }
+
+        return extractSelectFields();
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-02T20:59:19.502Z
+blockData:
+  top: -208
+  left: 1552
+  uuid: 5010be12-0f5e-4424-93f9-6d8a3f6e840a
+  pluginId: code2
+  blockType: code
+  dimensions:
+    width: 320
+    height: 416
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingPorts:
+    - portId: 297cf3ea-b52f-48c8-aa84-946029a0b660
+      blockId: a23bbf67-3cb9-4ce5-9881-d600a179aa84
+  responsePanelState: open
+  incomingOnSuccessEdges: []

@@ -1,0 +1,116 @@
+id: code1
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |-
+
+        function validateInstanceValues() { 
+          const instanceValues = startTrigger.data.instanceValues; 
+          let errors = [];
+
+          for (const item of instanceValues) { 
+            if (item.select1 === null) {
+              errors.push('Error: You must pick every team');
+              return { valid: false, errors };
+            }
+            if (item.select2 === null) {
+              errors.push('Error: You must rank every game');
+              return { valid: false, errors };
+            }
+          } 
+          
+          const select2Values = instanceValues.map(item => item.select2); 
+          if (select2Values.length !== new Set(select2Values).size) {
+            errors.push('Error: Duplicate Ranking');
+            return { valid: false, errors };
+          } 
+          
+          return { valid: true, errors: [] }; 
+        } 
+
+        return validateInstanceValues();
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '120000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-02T19:49:25.548Z
+blockData:
+  top: 48
+  left: 512
+  uuid: 28bd13a7-66a2-44fd-a2eb-abd4e35c350e
+  pluginId: code1
+  blockType: code
+  dimensions:
+    width: 400
+    height: 520
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  responsePanelState: open
+  incomingOnSuccessEdges:
+    - 51b341ad-ea20-49be-8384-3d5e6bec6e45
