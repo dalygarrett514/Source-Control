@@ -1,0 +1,1 @@
+select * from dapool_users where user_id = {{ current_user.id }}
