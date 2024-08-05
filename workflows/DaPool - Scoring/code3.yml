@@ -1,0 +1,150 @@
+id: code3
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |
+        function calculateUserPoints(userPicks, gameResults, userPointsData) {
+          const userPoints = {};        
+          userPicks.forEach(pick => {          
+            const result = gameResults.find(game => game.gameId === pick.game_id);          
+            if (result) {              
+              const homeScore = parseFloat(result.homeTeamScore);       
+              const awayScore = parseFloat(result.awayTeamScore);              
+              // Determine the winning team       
+              if (homeScore !== awayScore) { // No points if scores are the same         
+                const winningTeam = homeScore > awayScore ? result.homeTeam : result.awayTeam;                
+                if (pick.pick === winningTeam) {                    
+                  if (!userPoints[pick.user_id]) {                        
+                    userPoints[pick.user_id] = 0;                    
+                  }                    
+                  userPoints[pick.user_id] += pick.rank;                
+                }            
+              }     
+            }      
+          });        
+
+          // Create a map of user_id to initial points and ranks from userPointsData
+          const initialPoints = {};
+          userPointsData.forEach(user => {
+            initialPoints[user.user_id] = {
+              points: user.points,
+              initialRank: parseInt(user.rank, 10)  // Initial rank from query2.data
+            };
+          });
+
+          // Compute the new rankings based on updated points
+          const updatedPoints = Object.keys(userPoints).map(user_id => ({
+            user_id: parseInt(user_id, 10),
+            total_points: userPoints[user_id]
+          }));
+
+          updatedPoints.sort((a, b) => b.total_points - a.total_points);  // Sort by total points descending
+
+          // Create a map of user_id to new rank
+          const newRankMap = {};
+          updatedPoints.forEach((user, index) => {
+            newRankMap[user.user_id] = index + 1;  // Ranks are 1-based
+          });
+
+          // Create the final output including points, initial ranks, new ranks, and rank change
+          return updatedPoints.map(user => {
+            const initial = initialPoints[user.user_id] || {};
+            const initialRank = initial.initialRank || Infinity;  // Default to Infinity if user_id not found
+            const newRank = newRankMap[user.user_id] || Infinity;
+            return {
+              user_id: user.user_id,
+              total_points: user.total_points,
+              points: initial.points || 0,  // Default to 0 if user_id not found
+              initial_rank: initialRank,
+              new_rank: newRank,
+              rank_change: initialRank - newRank  // Positive number means improved rank
+            };
+          });
+        }
+
+        // Example usage
+        return calculateUserPoints(query4.data, code2.data, query2.data);
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-05T00:02:23.350Z
+blockData:
+  top: 96
+  left: 2160
+  uuid: fd7d9033-698c-4aef-a4eb-293f02c98cc2
+  pluginId: code3
+  blockType: code
+  dimensions:
+    width: 496
+    height: 592
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  responsePanelState: closed
+  incomingOnSuccessEdges:
+    - 848df022-accb-441a-b788-1de8e8e34874
