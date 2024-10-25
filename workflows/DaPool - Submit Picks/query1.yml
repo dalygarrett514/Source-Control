@@ -1,0 +1,119 @@
+id: query1
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 43225dde-2ff6-4dba-bf96-31d8139721a2
+resourceDisplayName: retool_db
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray: []
+    - cacheKeyTtl: ''
+    - filterBy: >-
+        [{"key":"user_id","value":"{{ startTrigger.data.userId
+        }}","operation":"="},{"key":"game_id","value":"{{ value.game_id
+        }}","operation":"="}]
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: gui
+    - queryRunTime: null
+    - actionType: UPDATE_OR_INSERT_BY
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - errorTransformer: return data.error
+    - finished: null
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: >-
+        [{"key":"rank","value":"{{ value.select2
+        }}"},{"key":"game_id","value":"{{ value.game_id
+        }}"},{"key":"pick","value":"{{ value.select1 }}"}]
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - databaseWarehouseOverride: ''
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - tableName: dapool_picks
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - databaseUsernameOverride: ''
+    - databaseRoleOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-02T20:18:18.255Z
+blockData:
+  top: -464
+  left: 2096
+  uuid: c402d7e2-fede-43ee-a086-4ed220ff7f40
+  options:
+    iterable: 5010be12-0f5e-4424-93f9-6d8a3f6e840a
+    executionMode: parallel
+    iterationErrorConfig:
+      errorPolicy: ignore
+  pluginId: query1
+  blockType: loop
+  editorType: SqlQueryUnified
+  onboarding: false
+  isMinimized: false
+  resourceName: 43225dde-2ff6-4dba-bf96-31d8139721a2
+  incomingPorts: []
+  responsePanelState: open
+  incomingOnSuccessEdges:
+    - 5010be12-0f5e-4424-93f9-6d8a3f6e840a

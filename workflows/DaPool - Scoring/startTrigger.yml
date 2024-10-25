@@ -1,0 +1,128 @@
+id: startTrigger
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |-
+        return [
+          {
+            "id": "612c2c3f6ca9e10d4b7ead21a2b0ff38",
+            "sport_key": "americanfootball_nfl",
+            "sport_title": "NFL",
+            "commence_time": "2023-10-11T23:10:00Z",
+            "completed": true,
+            "home_team": "Kansas City Chiefs",
+            "away_team": "Baltimore Ravens",
+            "scores": [
+              {
+                "name": "Kansas City Chiefs",
+                "score": "20"
+              },
+              {
+                "name": "Baltimore Ravens",
+                "score": "34"
+              }
+            ],
+            "last_update": "2023-10-11T23:30:12Z"
+          },
+          {
+            "id": "eca3b71919531e7ae0b4f3f501157e6c",
+            "sport_key": "americanfootball_nfl",
+            "sport_title": "NFL",
+            "commence_time": "2023-10-11T23:10:00Z",
+            "completed": true,
+            "home_team": "Philadelphia Eagles",
+            "away_team": "Green Bay Packers",
+            "scores": [
+              {
+                "name": "Philadelphia Eagles",
+                "score": "50"
+              },
+              {
+                "name": "Green Bay Packers",
+                "score": "21"
+              }
+            ],
+            "last_update": "2023-10-11T23:30:12Z"
+          }
+        ]
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-02T17:48:01.571Z
+blockData:
+  top: 96
+  left: -1280
+  uuid: 94122761-04fd-4a55-89b8-2b82d4533298
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: webhook
+  incomingOnSuccessEdges: []

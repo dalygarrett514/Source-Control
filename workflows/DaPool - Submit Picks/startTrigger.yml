@@ -1,0 +1,317 @@
+id: startTrigger
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |-
+        return {
+          "userId": 1111605,
+          "instanceValues": [
+            {
+              "primaryKey": "0",
+              "select1": "Baltimore Ravens",
+              "select2": "2"
+            },
+            {
+              "primaryKey": "1",
+              "select1": "Cincinnati Bengals",
+              "select2": "1"
+            },
+            {
+              "primaryKey": "2",
+              "select1": "Green Bay Packers",
+              "select2": "3"
+            },
+            {
+              "primaryKey": "3",
+              "select1": "Atlanta Falcons",
+              "select2": "4"
+            },
+            {
+              "primaryKey": "4",
+              "select1": "Indianapolis Colts",
+              "select2": "5"
+            },
+            {
+              "primaryKey": "5",
+              "select1": "Tennessee Titans",
+              "select2": "6"
+            },
+            {
+              "primaryKey": "6",
+              "select1": "Minnesota Vikings",
+              "select2": "7"
+            },
+            {
+              "primaryKey": "7",
+              "select1": "Denver Broncos",
+              "select2": "8"
+            },
+            {
+              "primaryKey": "8",
+              "select1": "Las Vegas Raiders",
+              "select2": "9"
+            },
+            {
+              "primaryKey": "9",
+              "select1": "New York Jets",
+              "select2": "10"
+            },
+            {
+              "primaryKey": "10",
+              "select1": "Jacksonville Jaguars",
+              "select2": "11"
+            },
+            {
+              "primaryKey": "11",
+              "select1": "Tampa Bay Buccaneers",
+              "select2": "12"
+            },
+            {
+              "primaryKey": "12",
+              "select1": "Arizona Cardinals",
+              "select2": "13"
+            },
+            {
+              "primaryKey": "13",
+              "select1": "Carolina Panthers",
+              "select2": "14"
+            },
+            {
+              "primaryKey": "14",
+              "select1": "Detroit Lions",
+              "select2": "15"
+            },
+            {
+              "primaryKey": "15",
+              "select1": "Dallas Cowboys",
+              "select2": "16"
+            }
+          ],
+          "data": [
+            {
+              "id": 18,
+              "game_id": "612c2c3f6ca9e10d4b7ead21a2b0ff38",
+              "team1": "Baltimore Ravens",
+              "team1spread": "3",
+              "team2": "Kansas City Chiefs",
+              "team2spread": "-3",
+              "gametime": "2024-09-06T00:20:00.000Z"
+            },
+            {
+              "id": 19,
+              "game_id": "5f14ebd3a8f10d141a7f0c2dcf510368",
+              "team1": "Cincinnati Bengals",
+              "team1spread": "-9",
+              "team2": "New England Patriots",
+              "team2spread": "9",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 20,
+              "game_id": "eca3b71919531e7ae0b4f3f501157e6c",
+              "team1": "Green Bay Packers",
+              "team1spread": "1.5",
+              "team2": "Philadelphia Eagles",
+              "team2spread": "-1.5",
+              "gametime": "2024-09-07T00:20:00.000Z"
+            },
+            {
+              "id": 21,
+              "game_id": "92665529cce6b8089e793d1e7d5e4b66",
+              "team1": "Atlanta Falcons",
+              "team1spread": "-2.5",
+              "team2": "Pittsburgh Steelers",
+              "team2spread": "2.5",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 22,
+              "game_id": "60fdc65ee27ab7dbe07dc06ef35afadc",
+              "team1": "Houston Texans",
+              "team1spread": "-1.5",
+              "team2": "Indianapolis Colts",
+              "team2spread": "1.5",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 23,
+              "game_id": "b5b9d07cdd5c7bd14e943ccd7973e6a2",
+              "team1": "Chicago Bears",
+              "team1spread": "-4.5",
+              "team2": "Tennessee Titans",
+              "team2spread": "4.5",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 25,
+              "game_id": "c483f5c8e0ee5f1f5abdd75870eeeffc",
+              "team1": "Minnesota Vikings",
+              "team1spread": "-1.5",
+              "team2": "New York Giants",
+              "team2spread": "1.5",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 26,
+              "game_id": "afb7e137dbb2a3de38d2d3cb68897e3b",
+              "team1": "Denver Broncos",
+              "team1spread": "4.5",
+              "team2": "Seattle Seahawks",
+              "team2spread": "-4.5",
+              "gametime": "2024-09-08T20:05:00.000Z"
+            },
+            {
+              "id": 24,
+              "game_id": "a2f9dcdf49ccacf33036a0b795413a6e",
+              "team1": "Las Vegas Raiders",
+              "team1spread": "3",
+              "team2": "Los Angeles Chargers",
+              "team2spread": "-3",
+              "gametime": "2024-09-08T20:05:00.000Z"
+            },
+            {
+              "id": 27,
+              "game_id": "d94f808523ced7460f7c88c758c481f5",
+              "team1": "New York Jets",
+              "team1spread": "5.5",
+              "team2": "San Francisco 49ers",
+              "team2spread": "-5.5",
+              "gametime": "2024-09-10T00:20:00.000Z"
+            },
+            {
+              "id": 28,
+              "game_id": "8c0e75b0a4ea07212e741acf25ad96b6",
+              "team1": "Jacksonville Jaguars",
+              "team1spread": "3.5",
+              "team2": "Miami Dolphins",
+              "team2spread": "-3.5",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 29,
+              "game_id": "ba439e5505ce1ee745d2e48f2d2f31e6",
+              "team1": "Tampa Bay Buccaneers",
+              "team1spread": "-3.5",
+              "team2": "Washington Commanders",
+              "team2spread": "3.5",
+              "gametime": "2024-09-08T20:25:00.000Z"
+            },
+            {
+              "id": 30,
+              "game_id": "7a5e353202d40a844491fa5753bc3097",
+              "team1": "Arizona Cardinals",
+              "team1spread": "7",
+              "team2": "Buffalo Bills",
+              "team2spread": "-7",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 31,
+              "game_id": "022add645ca37d612dbb69e8ef02f6b9",
+              "team1": "Carolina Panthers",
+              "team1spread": "4.5",
+              "team2": "New Orleans Saints",
+              "team2spread": "-4.5",
+              "gametime": "2024-09-08T17:00:00.000Z"
+            },
+            {
+              "id": 32,
+              "game_id": "fa20351fa9ca26c47f93abc8a9b2c941",
+              "team1": "Detroit Lions",
+              "team1spread": "-3.5",
+              "team2": "Los Angeles Rams",
+              "team2spread": "3.5",
+              "gametime": "2024-09-09T00:20:00.000Z"
+            },
+            {
+              "id": 33,
+              "game_id": "a1682ca5d9e0c4b14d19ed69d6299806",
+              "team1": "Cleveland Browns",
+              "team1spread": "-1.5",
+              "team2": "Dallas Cowboys",
+              "team2spread": "1.5",
+              "gametime": "2024-09-08T20:25:00.000Z"
+            }
+          ]
+        }
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-02T19:49:25.548Z
+blockData:
+  top: 48
+  left: 48
+  uuid: 51b341ad-ea20-49be-8384-3d5e6bec6e45
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: webhook
+  incomingOnSuccessEdges: []

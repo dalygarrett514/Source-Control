@@ -1,0 +1,20 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "5808313c-58bb-11ef-a0d8-9bb6dea7a6f0",
+  "appTemplate": {
+    "customComponentCollections": {
+      "array": [
+        {
+          "object": {
+            "collectionName": "GarrettCustomComponents",
+            "collectionRevisionUuid": "29e99d02-8798-4462-a7ff-9b2245fc576e",
+            "collectionUuid": "61263eda-994e-4166-b136-4ff7bac91dec"
+          }
+        }
+      ]
+    },
+    "version": "3.78.0",
+    "experimentalDataTabEnabled": true
+  }
+}

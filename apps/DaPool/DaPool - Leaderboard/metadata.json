@@ -1,0 +1,18 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "613ca036-50db-11ef-a75d-b3cf7079df72",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "getLeaderboard": {
+          "array": []
+        }
+      }
+    },
+    "appThemeName": "Custom app theme",
+    "version": "3.76.0",
+    "experimentalDataTabEnabled": true
+  }
+}
