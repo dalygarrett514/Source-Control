@@ -10,10 +10,16 @@
   >
     <DynamicWidget_GarrettCustomComponents_CrashList
       id="crashList1"
+      collectionUuid=""
       heightType="fixed"
       listOfCrashes={
         '[\n  {\n    "userInfo": {\n      "userId": "User1",\n      "deviceId": "DeviceA"\n    },\n    "impactDay": "2024-08-12",\n    "impactId": "Impact1",\n    "eventColour": "#FF0000"\n  },\n  {\n    "userInfo": {\n      "userId": "User2",\n      "deviceId": "DeviceB"\n    },\n    "impactDay": "2024-08-13",\n    "impactId": "Impact2",\n    "eventColour": "#00FF00"\n  }\n]'
       }
+    />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
     />
   </Frame>
 </App>
