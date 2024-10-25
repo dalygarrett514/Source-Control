@@ -24,6 +24,7 @@
       text={
         "Hello {{ current_user.firstName || 'friend' }}! Assign tasks by selecting a row and engineer, then clicking \"Assign\""
       }
+      textSize="default"
     />
     <Table
       id="table1"

@@ -165,6 +165,7 @@
           id="iconText2"
           horizontalAlign="center"
           text="Hello {{ select3.selectedItem.first_name || 'friend' }}! Manage tasks by editing content below"
+          textSize="default"
         />
         <Table
           id="table2"
