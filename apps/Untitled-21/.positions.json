@@ -1,0 +1,27 @@
+{
+  "avatar1": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "image1": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "height": 1,
+    "width": 1
+  },
+  "mixedChart1": {
+    "height": 7.6,
+    "width": 5
+  },
+  "navigation1": {
+    "subcontainer": "sidebarFrame1",
+    "height": 0.8,
+    "width": 1
+  },
+  "table1": {
+    "height": 8,
+    "width": 8
+  }
+}
