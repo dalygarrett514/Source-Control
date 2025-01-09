@@ -65,6 +65,7 @@
       tooltipByIndex=""
       values="{{item.id}}"
     />
+    <Button id="button2" text="Button" />
     <Include src="./src/tabbedContainer1.rsx" />
     <Form
       id="form1"
