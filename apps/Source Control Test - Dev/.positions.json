@@ -1,4 +1,9 @@
 {
+  "keyValue1": {
+    "col": 8,
+    "height": 8.6,
+    "width": 4
+  },
   "navigation1": {
     "subcontainer": "header",
     "height": 1,
@@ -6,6 +11,6 @@
   },
   "table1": {
     "height": 8,
-    "width": 12
+    "width": 8
   }
 }
