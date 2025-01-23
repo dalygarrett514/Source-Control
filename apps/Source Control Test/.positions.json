@@ -1,8 +1,13 @@
 {
   "keyValue1": {
-    "col": 8,
-    "height": 8.6,
-    "width": 4
+    "row": 7.6,
+    "col": 7,
+    "height": 8.6
+  },
+  "mixedChart1": {
+    "col": 2,
+    "height": 7.6,
+    "width": 8
   },
   "navigation1": {
     "subcontainer": "header",
@@ -10,7 +15,9 @@
     "width": 12
   },
   "table1": {
+    "row": 7.6,
+    "col": 2,
     "height": 8,
-    "width": 8
+    "width": 5
   }
 }
