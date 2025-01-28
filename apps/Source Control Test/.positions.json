@@ -1,10 +1,14 @@
 {
+  "image1": {
+    "col": 2
+  },
   "keyValue1": {
-    "row": 7.6,
+    "row": 12.6,
     "col": 7,
     "height": 8.6
   },
   "mixedChart1": {
+    "row": 5,
     "col": 2,
     "height": 7.6,
     "width": 8
@@ -15,7 +19,7 @@
     "width": 12
   },
   "table1": {
-    "row": 7.6,
+    "row": 12.6,
     "col": 2,
     "height": 12,
     "width": 5
