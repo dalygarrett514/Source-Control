@@ -6,6 +6,13 @@
   title="Default Page"
   urlSlug=""
 >
+  <SqlQueryUnified
+    id="query1"
+    query={include("../lib/query1.sql", "string")}
+    resourceDisplayName="retool_db"
+    resourceName="43225dde-2ff6-4dba-bf96-31d8139721a2"
+    warningCodes={[]}
+  />
   <Frame
     id="$main"
     enableFullBleed={false}
