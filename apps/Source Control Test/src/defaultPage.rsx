@@ -8,8 +8,8 @@
 >
   <SqlQueryUnified
     id="query1"
+    isHidden={false}
     query={include("../lib/query1.sql", "string")}
-    resourceDisplayName="retool_db"
     resourceName="43225dde-2ff6-4dba-bf96-31d8139721a2"
     warningCodes={[]}
   />
@@ -241,15 +241,6 @@
         zDataMode="manual"
       />
     </Chart>
-    <KeyValue
-      id="keyValue1"
-      data="{{ table1.selectedRow }}"
-      editIcon="bold/interface-edit-pencil"
-      enableSaveActions={true}
-      groupLayout="singleColumn"
-      itemLabelPosition="top"
-      labelWrap={true}
-    />
     <Table
       id="table1"
       cellSelection="none"
@@ -400,5 +391,14 @@
         />
       </ToolbarButton>
     </Table>
+    <KeyValue
+      id="keyValue1"
+      data="{{ table1.selectedRow }}"
+      editIcon="bold/interface-edit-pencil"
+      enableSaveActions={true}
+      groupLayout="singleColumn"
+      itemLabelPosition="top"
+      labelWrap={true}
+    />
   </Frame>
 </Screen>
