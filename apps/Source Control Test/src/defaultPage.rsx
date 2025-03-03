@@ -3,11 +3,13 @@
   _customShortcuts={[]}
   _hashParams={[]}
   _searchParams={[]}
+  browserTitle=""
   title="Default Page"
   urlSlug=""
 >
   <SqlQueryUnified
     id="query1"
+    isHidden={false}
     query={include("../lib/query1.sql", "string")}
     resourceDisplayName="retool_db"
     resourceName="43225dde-2ff6-4dba-bf96-31d8139721a2"
@@ -399,12 +401,6 @@
       groupLayout="singleColumn"
       itemLabelPosition="top"
       labelWrap={true}
-    />
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
     />
   </Frame>
 </Screen>

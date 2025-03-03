@@ -1,8 +1,4 @@
 {
-  "image1": {
-    "row": 19.8,
-    "col": 2
-  },
   "keyValue1": {
     "row": 7.8,
     "col": 7,
@@ -13,11 +9,6 @@
     "col": 2,
     "height": 7.6,
     "width": 8
-  },
-  "navigation1": {
-    "subcontainer": "header",
-    "height": 1,
-    "width": 12
   },
   "table1": {
     "row": 7.8,
