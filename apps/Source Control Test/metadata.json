@@ -3,8 +3,9 @@
   "version": "43.0.9",
   "pageUuid": "9a1ec2c6-d8f8-11ef-a33b-5b7d0538a3f5",
   "appTemplate": {
+    "serializedLayout": null,
     "rootScreen": "defaultPage",
-    "version": "3.162.0",
+    "version": "3.168.0",
     "experimentalDataTabEnabled": true
   }
 }
