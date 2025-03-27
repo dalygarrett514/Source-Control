@@ -1,11 +1,11 @@
 {
   "circularImage1": {
-    "row": 0.2,
-    "col": 2,
+    "row": 12.8,
+    "col": 6,
     "width": 2
   },
   "keyValue1": {
-    "row": 12.8,
+    "row": 17.8,
     "col": 7,
     "height": 8.6
   },
@@ -16,7 +16,7 @@
     "width": 8
   },
   "table1": {
-    "row": 12.8,
+    "row": 17.8,
     "col": 2,
     "height": 12,
     "width": 5

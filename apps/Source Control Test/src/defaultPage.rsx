@@ -24,15 +24,6 @@
     style={{ ordered: [{ canvas: "surfacePrimary" }] }}
     type="main"
   >
-    <Image
-      id="circularImage1"
-      aspectRatio={1}
-      fit="contain"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1062/800/800"
-      style={{ map: { borderRadius: "50%" } }}
-    />
     <Chart
       id="mixedChart1"
       barGap={0.4}
@@ -252,6 +243,15 @@
         zDataMode="manual"
       />
     </Chart>
+    <Image
+      id="circularImage1"
+      aspectRatio={1}
+      fit="contain"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1062/800/800"
+      style={{ map: { borderRadius: "50%" } }}
+    />
     <Table
       id="table1"
       cellSelection="none"
