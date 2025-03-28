@@ -1,24 +1,23 @@
 {
   "circularImage1": {
-    "row": 12.8,
-    "col": 6,
+    "col": 2,
     "width": 2
   },
   "keyValue1": {
-    "row": 17.8,
+    "row": 37.4,
     "col": 7,
     "height": 8.6
   },
   "mixedChart1": {
-    "row": 5.2,
+    "row": 29.8,
     "col": 2,
     "height": 7.6,
     "width": 8
   },
   "table1": {
-    "row": 17.8,
+    "row": 10.2,
     "col": 2,
-    "height": 12,
+    "height": 19.6,
     "width": 5
   }
 }
