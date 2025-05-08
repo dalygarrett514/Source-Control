@@ -1,0 +1,21 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "87393dfe-0e3f-11f0-a9db-5b870ed12c4b",
+  "appTemplate": {
+    "customComponentCollections": {
+      "array": [
+        {
+          "object": {
+            "collectionName": "GarrettCoolNewCustomComponents",
+            "collectionRevisionUuid": "6d8f2136-40a1-484f-8c59-7b6a2b81dc65",
+            "collectionUuid": "821942d6-3cb9-49bf-aa52-e5541dce1850"
+          }
+        }
+      ]
+    },
+    "rootScreen": "page1",
+    "version": "3.192.0",
+    "experimentalDataTabEnabled": true
+  }
+}
