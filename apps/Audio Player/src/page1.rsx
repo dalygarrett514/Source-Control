@@ -48,6 +48,15 @@ return filterMp3Files(data);"
       showSelectionIndicator={true}
       values="{{ item.id }}"
     />
+    <Image
+      id="circularImage1"
+      aspectRatio={1}
+      fit="contain"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="{{current_user.metadata.profilepic}}"
+      style={{ map: { borderRadius: "50%" } }}
+    />
     <DynamicWidget_GarrettCoolNewCustomComponents_AudioPlayerComponent
       id="audioPlayerComponent1"
       audioUrl="{{ GetSong.data.base64Data }}"
