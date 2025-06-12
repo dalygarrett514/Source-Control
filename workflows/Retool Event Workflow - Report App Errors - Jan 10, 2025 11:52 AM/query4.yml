@@ -1,0 +1,100 @@
+id: query4
+type: datasource
+subtype: OpenAPIQuery
+resourceName: ''
+template:
+  queryRefreshTime: ''
+  method: ''
+  allowedGroupIds: []
+  streamResponse: false
+  operationId: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  server: ''
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  path: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  autoPaginate: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  parameters: ''
+  data: null
+  specPathOverride: ''
+  importedQueryInputs:
+    ordered: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  requestBodyDynamicStates: ''
+  queryRunTime: null
+  changesetObject: ''
+  requestBody: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  specBasePath: ''
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: slackopenapi
+  watchedParams: []
+  serverVariables: ''
+  enableErrorTransformer: false
+  isHidden: false
+  autoPaginateLimit: 500
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  importedQueryDefaults:
+    ordered: []
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  parameterDynamicStates: ''
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+style: {}
+createdAt: 2025-01-28T14:18:10.447Z
+blockData:
+  top: 368
+  left: 2208
+  uuid: 3ef651c6-24d7-4f9f-bb2c-1a8920381ad6
+  pluginId: query4
+  blockType: default
+  editorType: OpenAPIQuery
+  incomingPorts:
+    - portId: 470d3e4d-e1ac-411f-bbbc-7e209bb6c23c
+      blockId: 5cd438f2-e227-4b45-a7c1-87076d025ea7
+  incomingOnSuccessEdges: []
