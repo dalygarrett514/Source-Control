@@ -97,11 +97,11 @@ style: {}
 createdAt: 2025-01-10T16:52:44.926Z
 blockData:
   top: 48
-  left: 1040
+  left: 672
   uuid: faf4313f-e95b-425f-8d81-d926f78808ed
   pluginId: query2
   blockType: default
   editorType: SqlQueryUnified
   resourceName: 43225dde-2ff6-4dba-bf96-31d8139721a2
   incomingOnSuccessEdges:
-    - 76194218-5dc6-4f12-9ef4-ab98a565e94b
+    - 5c92d894-8037-4a03-af05-0bdbcef8bf8a
