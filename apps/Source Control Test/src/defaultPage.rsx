@@ -6,6 +6,7 @@
   browserTitle=""
   title="Default Page"
   urlSlug=""
+  uuid="08f89561-6df7-4589-9021-9b6df8eb78cd"
 >
   <SqlQueryUnified
     id="query1"
@@ -24,6 +25,11 @@
     style={{ ordered: [{ canvas: "surfacePrimary" }] }}
     type="main"
   >
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Table
       id="table1"
       cellSelection="none"

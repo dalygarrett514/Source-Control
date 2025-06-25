@@ -9,20 +9,24 @@
     "col": 7
   },
   "keyValue1": {
-    "row": 37.4,
+    "row": 37.6,
     "col": 7,
     "height": 8.6
   },
   "mixedChart1": {
-    "row": 29.8,
+    "row": 30,
     "col": 2,
     "height": 7.6,
     "width": 8
   },
   "table1": {
-    "row": 0.8,
+    "row": 1,
     "col": 2,
     "height": 29,
     "width": 5
+  },
+  "text1": {
+    "col": 2,
+    "height": 1
   }
 }
