@@ -6,6 +6,7 @@
   browserTitle=""
   title="Default Page"
   urlSlug=""
+  uuid="263852e9-ca4d-4016-b868-8da8632880b2"
 >
   <SqlQueryUnified
     id="query1"
