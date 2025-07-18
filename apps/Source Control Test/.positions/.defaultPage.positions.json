@@ -8,6 +8,12 @@
     "row": 6.8,
     "col": 7
   },
+  "imageGrid1": {
+    "row": 12,
+    "col": 7,
+    "height": 0.4,
+    "width": 5
+  },
   "keyValue1": {
     "row": 37.4,
     "col": 7,
