@@ -6,6 +6,7 @@
   browserTitle=""
   title="Default Page"
   urlSlug=""
+  uuid="f5981121-636b-4643-b84a-888344cddd45"
 >
   <SqlQueryUnified
     id="query1"
@@ -189,6 +190,17 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
+    <ImageGrid
+      id="imageGrid1"
+      aspectRatio={1}
+      columnCount={3}
+      columnMinWidth={100}
+      itemMode="static"
+    >
+      <Option id="00030" src="https://picsum.photos/id/1062/800/600" />
+      <Option id="00031" src="https://picsum.photos/id/1025/800/600" />
+      <Option id="00032" src="https://picsum.photos/id/837/400/300" />
+    </ImageGrid>
     <Chart
       id="mixedChart1"
       barGap={0.4}
