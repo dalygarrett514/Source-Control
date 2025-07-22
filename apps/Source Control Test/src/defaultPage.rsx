@@ -25,6 +25,7 @@
     style={{ ordered: [{ canvas: "surfacePrimary" }] }}
     type="main"
   >
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Table
       id="table1"
       cellSelection="none"
