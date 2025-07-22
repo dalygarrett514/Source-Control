@@ -15,20 +15,25 @@
     "width": 5
   },
   "keyValue1": {
-    "row": 37.4,
+    "row": 38.2,
     "col": 7,
     "height": 8.6
   },
   "mixedChart1": {
-    "row": 29.8,
+    "row": 30.6,
     "col": 2,
     "height": 7.6,
     "width": 8
   },
   "table1": {
-    "row": 0.8,
+    "row": 1.6,
     "col": 2,
     "height": 29,
     "width": 5
+  },
+  "textInput1": {
+    "col": 3,
+    "height": 0.2,
+    "width": 4
   }
 }
