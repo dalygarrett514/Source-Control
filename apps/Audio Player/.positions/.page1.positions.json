@@ -8,8 +8,28 @@
     "col": 10,
     "width": 2
   },
+  "container1": {
+    "row": 0,
+    "col": 4,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
   "reactFlowComponent1": {
-    "row": 7.2,
+    "row": 7.8,
     "height": 11,
     "width": 8
   },

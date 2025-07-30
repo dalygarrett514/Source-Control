@@ -6,7 +6,7 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
-  uuid="732b91f8-c39a-456a-9a2a-d9004fd29c36"
+  uuid="3ec63acb-9165-4bde-a751-1be9d570465a"
 >
   <RetoolStorageQuery
     id="GetSong"
@@ -58,6 +58,23 @@ return filterMp3Files(data);"
       src="{{current_user.metadata.profilepic}}"
       style={{ map: { borderRadius: "50%" } }}
     />
+    <Container
+      id="container1"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      padding="12px"
+      showBody={true}
+      showHeader={true}
+    >
+      <Header>
+        <Text
+          id="containerTitle1"
+          value="#### Container title"
+          verticalAlign="center"
+        />
+      </Header>
+      <View id="00030" viewKey="View 1" />
+    </Container>
     <DynamicWidget_GarrettCoolNewCustomComponents_AudioPlayerComponent
       id="audioPlayerComponent1"
       audioUrl="{{ GetSong.data.base64Data }}"
