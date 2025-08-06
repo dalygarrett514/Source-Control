@@ -1,0 +1,12 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "89bc0d98-72fa-11f0-b427-f7fd1dade223",
+  "appTemplate": {
+    "appThemeId": 98729,
+    "rootScreen": "page1",
+    "appThemeName": "Garrett's Theme",
+    "version": "3.249.0",
+    "experimentalDataTabEnabled": true
+  }
+}
