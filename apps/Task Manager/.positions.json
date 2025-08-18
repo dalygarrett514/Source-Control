@@ -7,6 +7,12 @@
     "height": 1,
     "width": 6
   },
+  "button2": {
+    "row": 1.6,
+    "col": 5,
+    "height": 1,
+    "width": 2
+  },
   "form1": {
     "row": 2.6,
     "col": 8,
