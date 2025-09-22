@@ -1,0 +1,12 @@
+id: defaultPage
+uuid: 89a71e10-1242-432d-a94d-2e6020b0d34d
+type: screen
+subtype: Screen
+template:
+  title: Default Page
+  urlSlug: ''
+  _searchParams: []
+  _hashParams: []
+  _customShortcuts: []
+createdAt: 2025-01-21T16:07:29.751Z
+blockData: {}
