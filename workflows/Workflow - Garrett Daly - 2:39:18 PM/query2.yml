@@ -1,0 +1,99 @@
+id: query2
+type: datasource
+subtype: OpenAPIQuery
+resourceName: ''
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - method: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - operationId: ''
+    - lastReceivedFromResourceAt: null
+    - isFunction: false
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - server: ''
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - path: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - autoPaginate: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - parameters: ''
+    - data: null
+    - specPathOverride: ''
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - requestBodyDynamicStates: ''
+    - queryRunTime: null
+    - changesetObject: ''
+    - requestBody: ''
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - specBasePath: ''
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: slackopenapi
+    - watchedParams: []
+    - serverVariables: ''
+    - enableErrorTransformer: false
+    - autoPaginateLimit: 500
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - parameterDynamicStates: ''
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2025-02-27T19:52:10.366Z
+blockData:
+  top: -32
+  left: 1568
+  uuid: b6b67514-172b-4b73-8660-fc297a165f0b
+  pluginId: query2
+  blockType: default
+  editorType: OpenAPIQuery
+  incomingPorts:
+    - portId: cf6c2cff-976b-45bd-be17-554a49f972a7
+      blockId: acdacb55-d28a-4d26-b955-764640fdacb7
+  incomingOnSuccessEdges: []

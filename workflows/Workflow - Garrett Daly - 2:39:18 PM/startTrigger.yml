@@ -1,0 +1,19 @@
+id: startTrigger
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  map:
+    query: 'return '
+createdAt: 2025-02-27T19:39:18.917Z
+blockData:
+  top: 48
+  left: 48
+  uuid: f7db6ea6-00e6-48f7-96d9-46dcea698bea
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: webhook
+  incomingOnSuccessEdges: []
