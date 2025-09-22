@@ -1,31 +1,31 @@
-id: query2
+id: query4
 type: datasource
-subtype: OpenAPIQuery
-resourceName: ''
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   queryRefreshTime: ''
-  method: ''
+  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
-  operationId: ''
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
   queryDisabledMessage: ''
   servedFromCache: false
-  server: ''
   offlineUserQueryInputs: ''
   functionDescription: null
   successMessage: ''
   queryDisabled: ''
-  path: ''
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: false
-  autoPaginate: false
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
+  headers: ''
   showFailureToaster: true
+  paginationEnabled: false
   query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
@@ -34,41 +34,35 @@ template:
   privateParams: []
   queryRunOnSelectorUpdate: false
   runWhenPageLoadsDelay: ''
-  parameters: ''
   data: null
-  specPathOverride: ''
-  importedQueryInputs:
-    ordered: []
+  importedQueryInputs: {}
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
-  requestBodyDynamicStates: ''
   queryRunTime: null
   changesetObject: ''
-  requestBody: ''
   offlineOptimisticResponse: null
   errorTransformer: return data.error
-  specBasePath: ''
   finished: null
   confirmationMessage: null
   isFetching: false
   changeset: ''
   rawData: null
   queryTriggerDelay: '0'
-  resourceTypeOverride: slackopenapi
+  resourceTypeOverride: null
   watchedParams: []
-  serverVariables: ''
   enableErrorTransformer: false
-  autoPaginateLimit: 500
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
-  importedQueryDefaults:
-    ordered: []
+  evalType: script
+  importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
-  parameterDynamicStates: ''
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
@@ -76,23 +70,26 @@ template:
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
+  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-02-27T19:52:10.366Z
+createdAt: 2025-09-22T18:50:52.833Z
 blockData:
-  top: -32
-  left: 1568
-  uuid: b6b67514-172b-4b73-8660-fc297a165f0b
-  pluginId: query2
+  top: 624
+  left: 1600
+  uuid: a219d8e2-f27f-4c89-ad01-b3a4683d45e6
+  pluginId: query4
   blockType: default
-  editorType: OpenAPIQuery
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
   incomingPorts:
-    - portId: cf6c2cff-976b-45bd-be17-554a49f972a7
+    - portId: 42a6889c-89c6-4e85-a1b0-fece4c796065
       blockId: acdacb55-d28a-4d26-b955-764640fdacb7
   incomingOnSuccessEdges: []
