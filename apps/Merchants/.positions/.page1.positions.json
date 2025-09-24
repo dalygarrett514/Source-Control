@@ -69,13 +69,13 @@
   "table1": {
     "container": "container1",
     "subcontainer": "00030",
-    "row": 0.2,
+    "row": 0.6,
     "col": 4,
     "height": 11.8,
     "width": 8,
     "stackPosition": {
       "object": {
-        "ordinal": 1,
+        "ordinal": 2,
         "widthType": "fixed",
         "width": 0,
         "height": 0
@@ -89,7 +89,7 @@
     "width": 4,
     "stackPosition": {
       "object": {
-        "ordinal": 2,
+        "ordinal": 3,
         "widthType": "fixed",
         "width": 0,
         "height": 0
@@ -110,6 +110,20 @@
       }
     }
   },
+  "text3": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "col": 7,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
   "textInput1": {
     "container": "container1",
     "subcontainer": "00030",
@@ -117,7 +131,7 @@
     "height": 0.2,
     "stackPosition": {
       "object": {
-        "ordinal": 0,
+        "ordinal": 1,
         "widthType": "fixed",
         "width": 0,
         "height": 0
