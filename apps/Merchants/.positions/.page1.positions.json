@@ -1,0 +1,127 @@
+{
+  "button1": {
+    "container": "container2",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 9,
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container1": {
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container2": {
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "keyValue1": {
+    "container": "container2",
+    "subcontainer": "00030",
+    "col": 4,
+    "height": 8.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table1": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 4,
+    "height": 11.8,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text1": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text2": {
+    "container": "container2",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput1": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "col": 4,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

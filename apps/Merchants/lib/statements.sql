@@ -1,0 +1,1 @@
+select * from demo_statements_250 where merchant_number = {{ table1.selectedRow.merchant_number }}
