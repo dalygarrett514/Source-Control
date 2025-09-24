@@ -5,28 +5,32 @@
     "width": 2
   },
   "image1": {
-    "row": 6.8,
+    "row": 7.6,
     "col": 7
   },
+  "image2": {
+    "row": 2.6,
+    "col": 9
+  },
   "imageGrid1": {
-    "row": 12,
+    "row": 12.6,
     "col": 7,
     "height": 0.4,
     "width": 5
   },
   "keyValue1": {
-    "row": 38.2,
+    "row": 36.8,
     "col": 7,
     "height": 8.6
   },
   "mixedChart1": {
-    "row": 30.6,
+    "row": 29.2,
     "col": 2,
     "height": 7.6,
     "width": 8
   },
   "table1": {
-    "row": 1.6,
+    "row": 0.2,
     "col": 2,
     "height": 29,
     "width": 5
