@@ -1,8 +1,11 @@
 {
   "button1": {
-    "row": 8,
+    "row": 13,
     "col": 6,
     "height": 1,
+    "width": 2
+  },
+  "circularImage1": {
     "width": 2
   },
   "keyValue1": {
@@ -11,6 +14,7 @@
     "width": 4
   },
   "table1": {
+    "row": 5,
     "height": 8,
     "width": 8
   }
