@@ -191,6 +191,11 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Image
       id="image1"
       heightType="fixed"
