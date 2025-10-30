@@ -176,6 +176,26 @@
         />
       </ToolbarButton>
     </Table>
+    <KeyValue
+      id="keyValueSelectedRow"
+      data="{{ table1.selectedSourceRow || {} }}"
+      editIcon="bold/interface-edit-pencil"
+      enableSaveActions={true}
+      minColumnWidth={160}
+      style={{
+        labelFontSize: "labelEmphasizedFont",
+        labelFontFamily: "labelEmphasizedFont",
+        fontWeight: "defaultFont",
+        accent: "surfaceSecondary",
+        hoverBackground: "surfacePrimary",
+        text: "textDark",
+        fontSize: "defaultFont",
+        fontFamily: "defaultFont",
+        label: "info",
+        labelFontWeight: "labelEmphasizedFont",
+        borderRadius: "12px",
+      }}
+    />
     <Chart
       id="mixedChart1"
       barGap={0.4}
