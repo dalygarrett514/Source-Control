@@ -1,0 +1,198 @@
+{
+  "avgOrderValueStatistic": {
+    "container": "kpiSection",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dashboardTitle": {
+    "row": 0.4,
+    "height": 1.6,
+    "width": 12
+  },
+  "kpiSection": {
+    "row": 7.2,
+    "height": 3.6,
+    "width": 12
+  },
+  "kpiSectionTitle": {
+    "container": "kpiSection",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.2,
+    "width": 12
+  },
+  "ordersChart": {
+    "container": "ordersChartContainer",
+    "subcontainer": "00030",
+    "height": 6.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "ordersChartContainer": {
+    "container": "visualizationSection",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "ordersChartTitle": {
+    "container": "ordersChartContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.2,
+    "width": 12
+  },
+  "ordersTable": {
+    "container": "ordersTableSection",
+    "subcontainer": "00030",
+    "height": 9.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "ordersTableSection": {
+    "row": 21.2,
+    "height": 12,
+    "width": 12
+  },
+  "ordersTableTitle": {
+    "container": "ordersTableSection",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.2,
+    "width": 9
+  },
+  "refreshButton": {
+    "container": "ordersTableSection",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 9,
+    "height": 1
+  },
+  "refundRateStatistic": {
+    "container": "kpiSection",
+    "subcontainer": "00030",
+    "col": 9,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "revenueChart": {
+    "container": "revenueChartContainer",
+    "subcontainer": "00030",
+    "height": 6.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "revenueChartContainer": {
+    "container": "visualizationSection",
+    "subcontainer": "00030",
+    "height": 8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "revenueChartTitle": {
+    "container": "revenueChartContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.2,
+    "width": 12
+  },
+  "totalOrdersStatistic": {
+    "container": "kpiSection",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "totalRevenueStatistic": {
+    "container": "kpiSection",
+    "subcontainer": "00030",
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "visualizationSection": {
+    "row": 10.8,
+    "height": 10.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "visualizationSectionTitle": {
+    "container": "visualizationSection",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.2,
+    "width": 12
+  }
+}
