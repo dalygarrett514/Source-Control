@@ -19,7 +19,7 @@
     "width": 12
   },
   "kpiSection": {
-    "row": 7.2,
+    "row": 1,
     "height": 3.6,
     "width": 12
   },
@@ -81,7 +81,7 @@
     }
   },
   "ordersTableSection": {
-    "row": 21.2,
+    "row": 15,
     "height": 12,
     "width": 12
   },
@@ -176,7 +176,7 @@
     }
   },
   "visualizationSection": {
-    "row": 10.8,
+    "row": 4.6,
     "height": 10.4,
     "width": 12,
     "stackPosition": {
