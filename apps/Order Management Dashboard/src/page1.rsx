@@ -54,6 +54,7 @@
       value="# Order Management Dashboard"
       verticalAlign="center"
     />
+    <Button id="button1" text="Button" />
     <Include src="./kpiSection.rsx" />
     <Container
       id="visualizationSection"
