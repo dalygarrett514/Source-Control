@@ -1,16 +1,22 @@
 {
+  "button1": {
+    "row": 0.6,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
   "keyValue1": {
-    "row": 36.8,
+    "row": 38.2,
     "col": 7,
     "height": 8.6
   },
   "keyValueSelectedRow": {
-    "row": 1.8,
+    "row": 0.4,
     "col": 7,
     "height": 12
   },
   "mixedChart1": {
-    "row": 29.2,
+    "row": 30.6,
     "col": 2,
     "height": 7.6,
     "width": 8
@@ -22,7 +28,7 @@
     "width": 4
   },
   "table1": {
-    "row": 0.2,
+    "row": 1.6,
     "col": 2,
     "height": 29,
     "width": 5
