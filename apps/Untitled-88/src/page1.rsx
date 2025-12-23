@@ -52,6 +52,24 @@
     padding="8px 12px"
     type="main"
   >
+    <Image
+      id="circularImage1"
+      aspectRatio={1}
+      fit="contain"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="{{current_user.metadata.profilepic}}"
+      style={{ map: { borderRadius: "50%" } }}
+    />
+    <KeyValue
+      id="keyValue1"
+      data="{{ table1.selectedRow }}"
+      editIcon="bold/interface-edit-pencil"
+      enableSaveActions={true}
+      groupLayout="singleColumn"
+      itemLabelPosition="top"
+      labelWrap={true}
+    />
     <Table
       id="table1"
       cellSelection="none"
@@ -258,15 +276,6 @@
         />
       </ToolbarButton>
     </Table>
-    <KeyValue
-      id="keyValue1"
-      data="{{ table1.selectedRow }}"
-      editIcon="bold/interface-edit-pencil"
-      enableSaveActions={true}
-      groupLayout="singleColumn"
-      itemLabelPosition="top"
-      labelWrap={true}
-    />
     <Button
       id="button1"
       disabled={'{{ current_user.groups[0].name == "admin" }}'}
