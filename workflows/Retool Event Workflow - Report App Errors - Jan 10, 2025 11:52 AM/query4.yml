@@ -1,7 +1,8 @@
 id: query4
 type: datasource
 subtype: OpenAPIQuery
-resourceName: ''
+resourceName: a9092d9e-dd11-4fa9-9706-5ff074a20e1e
+resourceDisplayName: testiiing
 template:
   queryRefreshTime: ''
   method: ''
@@ -94,6 +95,7 @@ blockData:
   pluginId: query4
   blockType: default
   editorType: OpenAPIQuery
+  resourceName: a9092d9e-dd11-4fa9-9706-5ff074a20e1e
   incomingPorts:
     - portId: 470d3e4d-e1ac-411f-bbbc-7e209bb6c23c
       blockId: 5cd438f2-e227-4b45-a7c1-87076d025ea7
