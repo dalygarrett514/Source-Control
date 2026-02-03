@@ -18,7 +18,7 @@
     <Option id="c6285" icon="bold/interface-user-multiple" label="Customers" />
     <Option id="49450" icon="bold/interface-setting-cog" label="Settings" />
     <Event
-      id="6f8a5973"
+      id="5cb7b481"
       event="click"
       method="openPage"
       params={{ ordered: [{ pageName: "{{ item.id }}" }] }}

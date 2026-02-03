@@ -2,6 +2,7 @@
   id="defaultPage"
   _customShortcuts={[]}
   _hashParams={[]}
+  _order={0}
   _searchParams={[]}
   browserTitle=""
   title="Default Page"
@@ -152,7 +153,7 @@
         type="custom"
       >
         <Event
-          id="b1e13eb6"
+          id="a0379a2f"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -168,7 +169,7 @@
         type="custom"
       >
         <Event
-          id="12f17b5b"
+          id="e5cef31c"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
@@ -211,6 +212,7 @@
         borderRadius: "12px",
       }}
     />
+    <Button id="button1" text="Button" />
     <Chart
       id="mixedChart1"
       barGap={0.4}

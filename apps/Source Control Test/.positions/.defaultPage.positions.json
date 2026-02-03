@@ -1,11 +1,17 @@
 {
+  "button1": {
+    "row": 12,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
   "keyValue1": {
     "row": 36.8,
     "col": 7,
     "height": 8.6
   },
   "keyValueSelectedRow": {
-    "row": 1.8,
+    "row": 0.4,
     "col": 7,
     "height": 12
   },
