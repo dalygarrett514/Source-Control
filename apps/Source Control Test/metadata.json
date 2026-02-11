@@ -3,8 +3,8 @@
   "version": "43.0.9",
   "pageUuid": "9a1ec2c6-d8f8-11ef-a33b-5b7d0538a3f5",
   "appTemplate": {
+    "appMaxWidth": "100%",
     "rootScreen": "defaultPage",
-    "version": "3.300.0",
-    "experimentalDataTabEnabled": true
+    "version": "3.339.0"
   }
 }
