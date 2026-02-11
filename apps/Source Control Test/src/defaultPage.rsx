@@ -2,6 +2,7 @@
   id="defaultPage"
   _customShortcuts={[]}
   _hashParams={[]}
+  _order={0}
   _searchParams={[]}
   browserTitle=""
   title="Default Page"
@@ -26,6 +27,45 @@
     type="main"
   >
     <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="00030" value="Option 1" />
+      <Option id="00031" value="Option 2" />
+      <Option id="00032" value="Option 3" />
+    </Select>
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
+    <KeyValue
+      id="keyValueSelectedRow"
+      data="{{ table1.selectedSourceRow || {} }}"
+      editIcon="bold/interface-edit-pencil"
+      enableSaveActions={true}
+      minColumnWidth={160}
+      style={{
+        labelFontSize: "labelEmphasizedFont",
+        labelFontFamily: "labelEmphasizedFont",
+        fontWeight: "defaultFont",
+        accent: "surfaceSecondary",
+        hoverBackground: "surfacePrimary",
+        text: "textDark",
+        fontSize: "defaultFont",
+        fontFamily: "defaultFont",
+        label: "info",
+        labelFontWeight: "labelEmphasizedFont",
+        borderRadius: "12px",
+      }}
+    />
     <Table
       id="table1"
       cellSelection="none"
@@ -152,7 +192,7 @@
         type="custom"
       >
         <Event
-          id="0ce8171c"
+          id="50ba89f8"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -168,7 +208,7 @@
         type="custom"
       >
         <Event
-          id="6a5e96aa"
+          id="09c6e0f1"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
@@ -178,39 +218,6 @@
         />
       </ToolbarButton>
     </Table>
-    <Select
-      id="select1"
-      emptyMessage="No options"
-      itemMode="static"
-      labelPosition="top"
-      overlayMaxHeight={375}
-      placeholder="Select an option"
-      showSelectionIndicator={true}
-    >
-      <Option id="00030" value="Option 1" />
-      <Option id="00031" value="Option 2" />
-      <Option id="00032" value="Option 3" />
-    </Select>
-    <KeyValue
-      id="keyValueSelectedRow"
-      data="{{ table1.selectedSourceRow || {} }}"
-      editIcon="bold/interface-edit-pencil"
-      enableSaveActions={true}
-      minColumnWidth={160}
-      style={{
-        labelFontSize: "labelEmphasizedFont",
-        labelFontFamily: "labelEmphasizedFont",
-        fontWeight: "defaultFont",
-        accent: "surfaceSecondary",
-        hoverBackground: "surfacePrimary",
-        text: "textDark",
-        fontSize: "defaultFont",
-        fontFamily: "defaultFont",
-        label: "info",
-        labelFontWeight: "labelEmphasizedFont",
-        borderRadius: "12px",
-      }}
-    />
     <Chart
       id="mixedChart1"
       barGap={0.4}
