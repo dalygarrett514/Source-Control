@@ -1,16 +1,21 @@
 {
+  "image1": {
+    "row": 0.2,
+    "col": 6,
+    "width": 1
+  },
   "keyValue1": {
-    "row": 36.8,
+    "row": 41.8,
     "col": 7,
     "height": 8.6
   },
   "keyValueSelectedRow": {
-    "row": 1.8,
+    "row": 0.4,
     "col": 7,
     "height": 12
   },
   "mixedChart1": {
-    "row": 29.2,
+    "row": 34.2,
     "col": 2,
     "height": 7.6,
     "width": 8
@@ -22,7 +27,7 @@
     "width": 4
   },
   "table1": {
-    "row": 0.2,
+    "row": 5.2,
     "col": 2,
     "height": 29,
     "width": 5
