@@ -17,6 +17,13 @@
     resourceName="43225dde-2ff6-4dba-bf96-31d8139721a2"
     warningCodes={[]}
   />
+  <JavascriptQuery
+    id="query3"
+    notificationDuration={4.5}
+    query={include("../lib/query3.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
   <Frame
     id="$main"
     enableFullBleed={false}
