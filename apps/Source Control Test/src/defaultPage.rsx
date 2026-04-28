@@ -27,6 +27,12 @@
     type="main"
   >
     <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Select
       id="select1"
       emptyMessage="No options"
@@ -40,12 +46,6 @@
       <Option id="00031" value="Option 2" />
       <Option id="00032" value="Option 3" />
     </Select>
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
     <KeyValue
       id="keyValueSelectedRow"
       data="{{ table1.selectedSourceRow || {} }}"
