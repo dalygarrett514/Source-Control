@@ -27,6 +27,12 @@
     type="main"
   >
     <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Select
       id="select1"
       emptyMessage="No options"
@@ -40,12 +46,6 @@
       <Option id="00031" value="Option 2" />
       <Option id="00032" value="Option 3" />
     </Select>
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
     <KeyValue
       id="keyValueSelectedRow"
       data="{{ table1.selectedSourceRow || {} }}"
@@ -66,6 +66,144 @@
         borderRadius: "12px",
       }}
     />
+    <Chart
+      id="mixedChart2"
+      barGap={0.4}
+      barMode="group"
+      chartType="mixed"
+      legendPosition="none"
+      selectedPoints="[]"
+      showSecondYAxis={true}
+      stackedBarTotalsDataLabelPosition="none"
+      title={null}
+      xAxisLineWidth={1}
+      xAxisRangeMax=""
+      xAxisRangeMin=""
+      xAxisShowTickLabels={true}
+      xAxisTickFormatMode="gui"
+      xAxisTitleStandoff={20}
+      yAxis2Grid={true}
+      yAxis2LineWidth={1}
+      yAxis2RangeMax=""
+      yAxis2RangeMin=""
+      yAxis2ShowTickLabels={true}
+      yAxis2TickFormatMode="gui"
+      yAxis2TitleStandoff={20}
+      yAxisGrid={true}
+      yAxisLineWidth={1}
+      yAxisRangeMax=""
+      yAxisRangeMin=""
+      yAxisShowTickLabels={true}
+      yAxisTickFormatMode="gui"
+      yAxisTitleStandoff={20}
+    >
+      <Series
+        id="0"
+        aggregationType="sum"
+        colorArray={{ array: [null] }}
+        colorArrayDropDown={{ array: [null] }}
+        colorInputMode="colorArrayDropDown"
+        connectorLineColor="#000000"
+        dataLabelPosition="none"
+        datasource="{{ query1.data }}"
+        datasourceMode="source"
+        decreasingBorderColor="{{ theme.danger }}"
+        decreasingColor="{{ theme.danger }}"
+        filteredGroups={null}
+        filteredGroupsMode="source"
+        gradientColorArray={{
+          array: [
+            { array: ["0.0", "{{ theme.success }}"] },
+            { array: ["1.0", "{{ theme.primary }}"] },
+          ],
+        }}
+        groupBy={{ array: [] }}
+        groupByDropdownType="source"
+        groupByStyles={{}}
+        hoverTemplate="<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>"
+        hoverTemplateMode="source"
+        increasingBorderColor="{{ theme.success }}"
+        increasingColor="{{ theme.success }}"
+        lineColor="{{ theme.primary }} "
+        lineDash="solid"
+        lineShape="spline"
+        lineUnderFillMode="none"
+        lineWidth={2}
+        markerBorderColor={null}
+        markerBorderWidth={0}
+        markerColor="{{ theme.primary }}"
+        markerSize={6}
+        markerSymbol="circle"
+        name="Query1 - patient_id"
+        showMarkers={false}
+        textTemplate={null}
+        textTemplateMode="manual"
+        type="line"
+        waterfallBase={0}
+        waterfallMeasures={null}
+        waterfallMeasuresMode="source"
+        xData="{{ query1.data.therapy_date }}"
+        xDataMode="source"
+        yAxis="y2"
+        yData="{{ query1.data.patient_id }}"
+        yDataMode="source"
+        zData={null}
+        zDataMode="manual"
+      />
+      <Series
+        id="1"
+        aggregationType="sum"
+        colorArray={{ array: ["{{ theme.danger }}"] }}
+        colorArrayDropDown={{ array: ["{{ theme.danger }}"] }}
+        colorInputMode="colorArrayDropDown"
+        connectorLineColor="#000000"
+        dataLabelPosition="none"
+        datasource="{{ query1.data }}"
+        datasourceMode="source"
+        decreasingBorderColor="{{ theme.danger }}"
+        decreasingColor="{{ theme.danger }}"
+        filteredGroups={null}
+        filteredGroupsMode="source"
+        gradientColorArray={{
+          array: [
+            { array: ["0.0", "{{ theme.success }}"] },
+            { array: ["1.0", "{{ theme.primary }}"] },
+          ],
+        }}
+        groupBy={{ array: [] }}
+        groupByDropdownType="source"
+        groupByStyles={{}}
+        hoverTemplate="<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>"
+        hoverTemplateMode="source"
+        increasingBorderColor="{{ theme.success }}"
+        increasingColor="{{ theme.success }}"
+        lineColor="{{ theme.primary }}"
+        lineDash="solid"
+        lineShape="linear"
+        lineUnderFillMode="none"
+        lineWidth={2}
+        markerBorderColor={null}
+        markerBorderWidth={0}
+        markerColor="{{ theme.danger }}"
+        markerSize={4}
+        markerSymbol="circle"
+        name="Query1 - claim_id"
+        showMarkers={false}
+        textTemplate={null}
+        textTemplateMode="manual"
+        type="scatter"
+        waterfallBase={0}
+        waterfallMeasures={null}
+        waterfallMeasuresMode="source"
+        xData="{{ query1.data.therapy_date }}"
+        xDataMode="source"
+        yAxis="y"
+        yData="{{ query1.data.claim_id }}"
+        yDataMode="source"
+        zData={null}
+        zDataMode="manual"
+      />
+    </Chart>
     <Table
       id="table1"
       cellSelection="none"

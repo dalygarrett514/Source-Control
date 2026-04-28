@@ -5,7 +5,7 @@
     "width": 1
   },
   "keyValue1": {
-    "row": 41.8,
+    "row": 46.8,
     "col": 7,
     "height": 8.6
   },
@@ -15,10 +15,16 @@
     "height": 12
   },
   "mixedChart1": {
-    "row": 34.2,
+    "row": 39.2,
     "col": 2,
     "height": 7.6,
     "width": 8
+  },
+  "mixedChart2": {
+    "row": 2.6,
+    "col": 2,
+    "height": 7.6,
+    "width": 4
   },
   "select1": {
     "row": 0.2,
@@ -27,7 +33,7 @@
     "width": 4
   },
   "table1": {
-    "row": 5.2,
+    "row": 10.2,
     "col": 2,
     "height": 29,
     "width": 5
