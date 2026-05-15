@@ -218,6 +218,7 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button1" text="Button" />
     <Chart
       id="mixedChart1"
       barGap={0.4}
